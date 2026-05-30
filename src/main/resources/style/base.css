@@ -1,0 +1,43 @@
+#title {
+    -fx-font-size: 24px;
+}
+
+#subtitle {
+    -fx-font-size: 18px;
+}
+
+#result,
+#result-win,
+#result-lose {
+    -fx-font-size: 20px;
+    -fx-font-weight: 800;
+}
+
+#result-win {
+    -fx-text-fill: #018301;
+}
+
+#result-lose {
+    -fx-text-fill: #bf0101;
+}
+
+#flag-label,
+#time-label {
+    -fx-font-size: 20px;
+}
+
+.cell-btn {
+    -fx-border-width: 0;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #303030;
+    -fx-font-weight: 900;
+}
+
+.number-1 { -fx-text-fill: #1976d2; }
+.number-2 { -fx-text-fill: #2e7d32; }
+.number-3 { -fx-text-fill: #d32f2f; }
+.number-4 { -fx-text-fill: #283593; }
+.number-5 { -fx-text-fill: #6d1b1b; }
+.number-6 { -fx-text-fill: #00838f; }
+.number-7 { -fx-text-fill: #212121; }
+.number-8 { -fx-text-fill: #616161; }
