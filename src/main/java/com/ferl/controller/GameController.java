@@ -107,7 +107,7 @@ public class GameController {
         if (firstClick || gameOver) return;
 
         if (cell.isFlagged()) {
-            cell.setText("");
+            cell.setGraphic(null);
             cell.setFlagged(false);
             flagAmount++;
             flagLabel.setText(String.valueOf(flagAmount));
